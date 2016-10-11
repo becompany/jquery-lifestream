@@ -29,7 +29,7 @@
     $.ajax({
       "url": "https://youtuby-1.herokuapp.com/" + config.user,
       "cache": false
-    }).success(parseYoutube);
+    }).done(parseYoutube);
 
     // Expose the template.
     // We use this to check which templates are available

@@ -96,7 +96,7 @@
     $.ajax({
       "url": 'https://twittery.herokuapp.com/' + config.user,
       "cache": false
-    }).success(parseTwitter);
+    }).done(parseTwitter);
 
     // Expose the template.
     // We use this to check which templates are available
